@@ -45,7 +45,6 @@ while m < 10:
 
 import pygame 
 import random 
-import os
 
 num = random.randint(0, 100)
 print(num)
@@ -117,4 +116,13 @@ while run:
      screen.blit(cat, cat_rect)
      screen.blit(dog, dog_rect)
      screen.blit(owl, owl_rect)
-     pygame.display.update() 
+     screen.blit(font_box, font_rect)
+     font_box.fill(SILVER)
+    font_box.blit(
+        font.render(numeral, True, BLACK), (10, 0)
+    )
+    pygame.display.update() 
+
+    if start == 1:
+         dialogs("", OUTSIDE_BG, 'лОЛОЛОЛО')
+         dialogs("", OUTSIDE_BG, 'ЛЯЛЯЛЯЛЯЛЛ')
