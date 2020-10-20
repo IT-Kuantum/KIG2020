@@ -45,6 +45,7 @@ while m < 10:
 
 import pygame 
 import random 
+import os
 
 num = random.randint(0, 100)
 print(num)
@@ -56,7 +57,7 @@ BLACK = (0, 0, 0)
 
 
 pygame.init()
-pygame.display.set_caption('ништо') 
+pygame.display.set_caption('ИГРРАААА') 
 pygame.mouse.set_visible(False)
 screen = pygame.display.set_mode((W, H))
 
@@ -111,9 +112,9 @@ while run:
                 if move > 2:
                     move = 1
 
-
-    screen.blit(bg, bg_rect)
-    screen.blit(cat, cat_rect)
-    screen.blit(dog, dog_rect)
-    screen.blit(owl, owl_rect)
-    pygame.display.update() 
+ if block = 0:
+     screen.blit(bg, bg_rect)
+     screen.blit(cat, cat_rect)
+     screen.blit(dog, dog_rect)
+     screen.blit(owl, owl_rect)
+     pygame.display.update() 
