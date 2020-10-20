@@ -118,4 +118,3 @@ while run:
      screen.blit(dog, dog_rect)
      screen.blit(owl, owl_rect)
      pygame.display.update() 
-/.
