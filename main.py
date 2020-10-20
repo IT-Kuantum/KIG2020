@@ -69,7 +69,10 @@ dog_rect = dog.get_rect(center=(410, 220))
 owl = pygame.image.load('Image/owl.png')
 owl_rect = owl.get_rect(center=(210, 120))
 dialog = pygame.image.load('Image/dialog.png')
-dialog_rect = dialog.get_rect()
+dialog_rect = dialog.get_rect() 
+
+def dialogs(text, pos, owl_text):
+    screen.blit
 
 # Цикл while в игре
 run = True
@@ -111,7 +114,7 @@ while run:
                 if move > 2:
                     move = 1
 
- if block = 0:
+    if block = 0:
      screen.blit(bg, bg_rect)
      screen.blit(cat, cat_rect)
      screen.blit(dog, dog_rect)
@@ -126,3 +129,5 @@ while run:
     if start == 1:
          dialogs("", OUTSIDE_BG, 'лОЛОЛОЛО')
          dialogs("", OUTSIDE_BG, 'ЛЯЛЯЛЯЛЯЛЛ')
+        start 0
+pygame.quit()
